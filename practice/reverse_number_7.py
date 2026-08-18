@@ -15,5 +15,5 @@ if __name__ == "__main__":
     try:
         number = int(input("Enter number: "))
         ReverseNumber(number)
-    except Exception as e:
+    except Exception as e:  
         print(e)
